@@ -22,12 +22,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
     HotwordEnrollmentXGoogleHI6403
-
-# NFC
-PRODUCT_COPY_FILES += \
-    vendor/huawei/hi6250/Nfc/lib/arm64/libnfc_nci_jni.so:system/app/NfcNci/lib/arm64/libnfc_nci_jni.so \
-    vendor/huawei/hi6250/Nfc/oat/arm64/NfcNci.odex:system/app/NfcNci/oat/arm64/NfcNci.odex \
-    vendor/huawei/hi6250/Nfc/oat/arm64/NfcNci.vdex:system/app/NfcNci/oat/arm64/NfcNci.vdex
-
-PRODUCT_PACKAGES += \
-    NfcNci
